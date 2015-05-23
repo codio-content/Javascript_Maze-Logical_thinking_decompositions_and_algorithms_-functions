@@ -14,7 +14,7 @@ So, what happens if we add these together using variable arithmetic?
 
 Javascript will look at both variables and if one of them is a string, it will use string arithmetic and not number arithmetic.
 
-So the result is `10100` and **not* `110`.
+So the result is `10100` and **not** `110`.
 
 ## Experiment
 Try changing `string` to be just `100` rather than `'100'`. What do you think will happen. And why does it happen?

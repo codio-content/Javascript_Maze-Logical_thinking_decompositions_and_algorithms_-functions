@@ -7,7 +7,7 @@ myOtherVariable = myVariable + 10
 
 In this case, `myOtherVariable` will be 110.
 
-With strings, we can do seomthing similar. Take a look at the code on the left hand side.
+With strings, we can do semething similar. Take a look at the code on the left hand side.
 
 Here we are creating 2 variables, `firstName` and `LastName`. We are then adding these together to give another string `fullName` the other variables joined together.
 
@@ -21,4 +21,4 @@ string3 = 'C'
 showMessage(string1 + string2 + string3)
 ```
 
-You will see `ABC` in the game message bar when this runs.
+You would see `ABC` in the game message bar when this runs.

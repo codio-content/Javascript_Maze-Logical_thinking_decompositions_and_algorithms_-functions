@@ -1,19 +1,19 @@
 We can use variables for creating our monsters, walls and energy stores.
 
-This time, we are going to use a new approach and you will be choosing your own variable names.
+In the previous Unit we used the following functions
 
-We'll start off by using blocks again. Look at the blocks on the left. We are doing the following
+- `addRandomMonsters()`
+- `addRandomWalls()`
+- `addRandomEnergies()`
+- `addPlayer()`
 
-## Adding Energy Stores
-We have created 2 energy stores at random locations using 'Add Random Energy' with a value of 2 plugged in directly.
+All of these functions, except `addPlayer()` take one single argument, which is the number of entities to add. 
 
-## Adding Walls
-We could could have done exactly the same thing to create the walls. Instead, we are going to use a variable first and then use that variable. So ...
+|||challenge
+Your job is to use a single variable, which you can call anything you like and assign it a value of 3. Then use this variable in all of the functions to generate the same number of Monsters, Walls and Energies.
 
-1. We are creating a variable that we happen to have called `numWalls` and we have assigned that variable a value of 8.
-1. We now use the Add Walls instruction but instead of pluggin a value, we are going to plug in the variable.
-
-Take a look at the game and see if you are sure what's going on.
+Add a player as well. Don't forget to create an empty maze as the first instruction.
+|||
 
 
 

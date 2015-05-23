@@ -1,10 +1,9 @@
-## Adding a space
-If you look at the message bar in the game, you can see that we have no space between the first name and the last name.
-
+## Fix and format challenge
 |||challenge
-Modify the code on the left so you get `Mike Smith` rather than `MikeSmith`. We need to have the space in between to make it look as it should.
+If you look at the code on the left, we have two issues to sort out.
 
-**Hint:** You should only use 2 variables and add the space using `' '` when joining the variables.
+1. This has a syntax error, so find it and fix it. Read the error message that pops up. It gives you some clues.
+1. Once you have fixed it, you will see that we need spaces between between the words. Modify the code to get the right result.
 
 When it looks right, press the button below.
 

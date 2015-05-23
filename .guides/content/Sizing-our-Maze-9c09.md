@@ -2,23 +2,25 @@ The first thing we will do is to control the size of our maze game.
 
 We already know that the maze uses a coordinate system. We can specify the width and the height of the maze by using 2 variables
 
-- mazeWidth
-- mazeHeight
+- width
+- height
 
-On the left, we have only 3 instructions available to us
+On the left, we've got 3 blocks available to us
 
-- Variable
-- Value (the small blue square with)
-- Create Maze
+- var (which helps you create a variable)
+- A number value (the small blue square with a '0' in it)
+- Create Empty Maze
 
 What we need to do is 
 
 1. Drag in a variable block 
-2. Choose a variable name and enter it in the space (you can only use mazeWidth and mazeHeight at the moment)
-3. Assign that variable name a value by connecting the value block to it.
+1. Choose a variable name and enter it in the space (you can only use mazeWidth and mazeHeight at the moment)
+1. Assign that variable name a value by connecting a value block to it.
+1. Change the value to the width and height (measured in number of tiles)
+1. If you choose values that are too large, they will not be accepted.
+1. Create an empty maze, which will have its width and height set according to the variables you set.
 
-So, to set mazeWidth to 15, it would look like this.
+So, to set width to 16 and height to 12, it would look like this.
 
-[IMAGE]
+![](.guides/img/var-intro.png)
 
-Once you're done, add the Create Maze block to the end, then press the reload button.
