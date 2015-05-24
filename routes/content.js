@@ -85,6 +85,11 @@ router.get('/js-14', function(req, res) {
   res.render('js-14');
 });
 
+// Number + string
+router.get('/js-15', function(req, res) {
+  res.render('js-15');
+});
+
 module.exports = router;
 
 

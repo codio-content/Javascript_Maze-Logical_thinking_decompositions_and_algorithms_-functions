@@ -437,7 +437,23 @@
   {
    "id": "ea7cb52a-948e-dadb-14f8-ec682d9934e",
    "title": "Joining a number and a string",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/js-15.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-15",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Joining-a-number-and-a-string-ea7c.md"

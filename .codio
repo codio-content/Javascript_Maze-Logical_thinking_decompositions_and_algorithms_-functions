@@ -5,7 +5,7 @@
   "commands": {
     "Start Nodemon": "nodemon --ignore public/ -e js,ejs app.js",
     "Start Node": "node app",
-    "Kill Node Processes": "pkill node"    
+    "Kill Node Processes": "pkill node & pkill nodemon"    
   },
 
 // Preview button configuration
