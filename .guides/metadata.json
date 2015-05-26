@@ -1,8 +1,8 @@
 {
  "sections": [
   {
-   "id": "b9d694e8-9ed0-4657-2f13-7f84efabe08e",
-   "title": "Variables",
+   "id": "944a307-5fce-7f59-2899-6ac756ada9b6",
+   "title": "Loops",
    "files": [
     {
      "path": "#tabs",
@@ -12,51 +12,11 @@
    "layout": "3-cell-tree",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Variables-b9d6.md"
+   "content-file": ".guides/content/Loops-944a.md"
   },
   {
-   "id": "92f3d431-bb7b-6b3a-2280-f080607de5e0",
-   "title": "Definition of a Variable",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Definition-of-a-Variable-92f3.md"
-  },
-  {
-   "id": "9c09a5b8-affd-fa4d-cb80-b5dc84843ac0",
-   "title": "Sizing our Maze",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "public/blockly/b-1/b-1.blockly",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain9500}}/b-1",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Sizing-our-Maze-9c09.md"
-  },
-  {
-   "id": "bae91d9c-9474-89fd-a18d-1e8c949afe93",
-   "title": "Challenge",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Challenge-bae9.md"
-  },
-  {
-   "id": "2f0f7ca7-46b4-bba3-457d-3d55aba4a957",
-   "title": "Doing it in Javascript",
+   "id": "c80c6bd8-9dd9-46e9-598b-8f3cc6a78f4",
+   "title": "What is a loop",
    "files": [
     {
      "path": "#tabs",
@@ -76,19 +36,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Doing-it-in-Javascript-2f0f.md"
+   "content-file": ".guides/content/What-is-a-loop-c80c.md"
   },
   {
-   "id": "d8646bd9-e8c6-46bf-e01c-77ee9cc3fb7",
-   "title": "Challenge",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Challenge-d864.md"
-  },
-  {
-   "id": "8ffd2e65-b503-a60d-1962-e1cb8e35d6e4",
-   "title": "The same with variables",
+   "id": "d94547fe-9eea-585a-be64-3f468875b1ae",
+   "title": "Creating 10 walls",
    "files": [
     {
      "path": "#tabs",
@@ -108,12 +60,45 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/The-same-with-variables-8ffd.md"
+   "content-file": ".guides/content/Creating-10-walls-d945.md"
   },
   {
-   "id": "5378eb91-f544-3c06-b20e-668728fe2d59",
-   "title": "Challenge",
+   "id": "48cd978e-70b-326c-3458-9bafcd981224",
+   "title": "A loop flowchart",
    "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/js-2.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "public/flow/js-2.flow",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-2",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-loop-flowchart-48cd.md"
+  },
+  {
+   "id": "4a6c9ae8-1429-a3c-d354-c8e8fdd3f9ef",
+   "title": "For loop",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
     {
      "path": "public/js/js-3.js",
      "panel": 0,
@@ -128,11 +113,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-5378.md"
+   "content-file": ".guides/content/For-loop-4a6c.md"
   },
   {
-   "id": "a39d406e-f047-ba3b-6974-3b14f79bd6da",
-   "title": "More uses",
+   "id": "f892e2ad-f8b8-6d6c-d0d5-17a0203414d8",
+   "title": "Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -152,11 +137,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/More-uses-a39d.md"
+   "content-file": ".guides/content/Challenge-f892.md"
   },
   {
-   "id": "575b7731-b516-f43e-1875-c378d44aa992",
-   "title": "Several variables challenge",
+   "id": "14143e2d-adc-e3a3-6506-4b34a4232dba",
+   "title": "Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -176,43 +161,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Several-variables-challenge-575b.md"
+   "content-file": ".guides/content/Challenge-1414.md"
   },
   {
-   "id": "c10f4149-387b-f8d0-d8e9-2e91e3fba4a9",
-   "title": "One variable for all things",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "public/js/js-5a.js",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain9500}}/js-5a",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/One-variable-for-all-things-c10f.md"
-  },
-  {
-   "id": "ddd5cf7e-d92b-4b8f-cd31-a5d744d5ff26",
-   "title": "Syntax Errors",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Syntax-Errors-ddd5.md"
-  },
-  {
-   "id": "bd69434e-73a0-8144-4307-da92e92c7509",
-   "title": "Variable arithmetic",
+   "id": "1b8eab9b-262e-2afa-dded-35a83b3e7767",
+   "title": "Challenge with If",
    "files": [
     {
      "path": "#tabs",
@@ -232,11 +185,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Variable-arithmetic-bd69.md"
+   "content-file": ".guides/content/Challenge-with-If-1b8e.md"
   },
   {
-   "id": "92affa18-2eaa-cdda-1c82-47e69fc7384",
-   "title": "Subtraction",
+   "id": "b00fc514-5707-853a-32dd-6d9d1574e00",
+   "title": "For loop variations",
    "files": [
     {
      "path": "#tabs",
@@ -256,11 +209,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Subtraction-92af.md"
+   "content-file": ".guides/content/For-loop-variations-b00f.md"
   },
   {
-   "id": "5792bc62-d633-2fbd-6c24-5c9a3ec50e2",
-   "title": "Multiplication",
+   "id": "e9a58fdc-38cf-2a86-f935-9e782c1f9aeb",
+   "title": "Increasing counter values",
    "files": [
     {
      "path": "#tabs",
@@ -280,11 +233,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Multiplication-5792.md"
+   "content-file": ".guides/content/Increasing-counter-values-e9a5.md"
   },
   {
-   "id": "63ad3792-e828-c079-9dc-997cddfe15d",
-   "title": "Arithmetic in the function call",
+   "id": "f7b51832-55a2-1e44-b0c7-67d5c2845c1",
+   "title": "Horizontal line of walls",
    "files": [
     {
      "path": "#tabs",
@@ -304,11 +257,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Arithmetic-in-the-function-call-63ad.md"
+   "content-file": ".guides/content/Horizontal-line-of-walls-f7b5.md"
   },
   {
-   "id": "566894a7-a187-7ae7-25b2-4cf3075716",
-   "title": "Strings",
+   "id": "cecd12ea-5571-a1c2-a4dd-7176320fbba9",
+   "title": "Diagonal Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -328,19 +281,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Strings-5668.md"
+   "content-file": ".guides/content/Diagonal-Challenge-cecd.md"
   },
   {
-   "id": "3a479373-dd72-7b8c-9b14-3c95f0b09c4a",
-   "title": "Game Messages",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Game-Messages-3a47.md"
-  },
-  {
-   "id": "a0ce9115-4143-84b4-4f4c-ff2a35dc92bb",
-   "title": "Using a variable",
+   "id": "fcc2d1c4-ffc1-e4a3-1666-c2bbd48357dc",
+   "title": "'V' Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -360,11 +305,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Using-a-variable-a0ce.md"
+   "content-file": ".guides/content/-V--Challenge-fcc2.md"
   },
   {
-   "id": "9ad4a556-b98c-2fa4-8384-a7d3f2d896fb",
-   "title": "String Arithmetic",
+   "id": "c01ef418-a72a-9333-5fe7-87c13550edb9",
+   "title": "Breaking out",
    "files": [
     {
      "path": "#tabs",
@@ -384,11 +329,11 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/String-Arithmetic-9ad4.md"
+   "content-file": ".guides/content/Breaking-out-c01e.md"
   },
   {
-   "id": "25134b12-37ef-7759-ada1-c2035f0ee164",
-   "title": "More string arithmetic",
+   "id": "a1203001-12c2-2891-1977-864b3d3b964c",
+   "title": "Nested Loops",
    "files": [
     {
      "path": "#tabs",
@@ -408,63 +353,15 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/More-string-arithmetic-2513.md"
+   "content-file": ".guides/content/Nested-Loops-a120.md"
   },
   {
-   "id": "f49fd00f-c3be-48e1-c88-a67dbb2888fd",
-   "title": "String Challenge",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "public/js/js-14.js",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain9500}}/js-14",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/String-Challenge-f49f.md"
-  },
-  {
-   "id": "ea7cb52a-948e-dadb-14f8-ec682d9934e",
-   "title": "Joining a number and a string",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    },
-    {
-     "path": "public/js/js-15.js",
-     "panel": 0,
-     "action": "open"
-    },
-    {
-     "path": "#preview: https://{{domain9500}}/js-15",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Joining-a-number-and-a-string-ea7c.md"
-  },
-  {
-   "id": "1c0acd22-7852-57ab-8e94-d3b6e36dc114",
-   "title": "All done",
+   "id": "2d8518b7-b528-cdfc-9c1e-818ff065d0a",
+   "title": "That's all folks",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/All-done-1c0a.md"
+   "content-file": ".guides/content/New-Section-16-2d85.md"
   }
  ],
  "theme": "paper",

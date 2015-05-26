@@ -1,7 +1,11 @@
 
-// Variable arithmetic in function calls
-
-firstName = 'Michael'
-lastName = 'Smith'
 createEmptyMaze()
-showMessage( firstName + lastName )
+
+for ( i = 0; i < 20; i++) {
+  addWall()
+  if ( i == 5) {
+    break
+  }
+}
+
+addPlayer()

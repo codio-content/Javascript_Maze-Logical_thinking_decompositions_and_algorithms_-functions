@@ -1,2 +1,13 @@
 
-createEmptyMaze(14, 6)
+createEmptyMaze()
+addWall()
+addWall()
+addWall()
+addWall()
+addWall()
+addWall()
+addWall()
+addWall()
+addWall()
+addWall()
+

@@ -1,6 +1,8 @@
 
-// Variable arithmetic in function calls
-
-msg = 'Hello world'
 createEmptyMaze()
-showMessage( msg )
+
+for ( i = 0; i < 4; i++) {
+  addWall(i+2, i+2) 
+}
+
+addPlayer()

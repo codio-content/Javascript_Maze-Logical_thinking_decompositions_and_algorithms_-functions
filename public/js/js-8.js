@@ -1,12 +1,12 @@
 
-// Variable arithmetic - multiplication
+createEmptyMaze()
 
-createEmptyMaze(16, 8)
-numMonsters = 2
-numEnergies = numMonsters * 2
-numWalls = numEnergies * 2
-addRandomMonsters ( numMonsters )
-addRandomEnergies ( numEnergies )
-addRandomWalls ( numWalls )
+for ( i=0; i<5; i++) {
+  addWall() 
+}
+
+for ( ctr=0; ctr<30; ctr += 10) {
+  addEnergy()
+}
+
 addPlayer()
-addGoal()

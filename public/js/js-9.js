@@ -1,10 +1,8 @@
 
-// Variable arithmetic in function calls
+createEmptyMaze()
 
-createEmptyMaze(16, 8)
-numMonsters = 3
-addRandomMonsters ( numMonsters )
-addRandomEnergies ( numMonsters * 2 )
-addRandomWalls ( numMonsters - 1 )
+for ( i = 0; i < 4; i++) {
+  addWall(i+2, 2) 
+}
+
 addPlayer()
-addGoal()

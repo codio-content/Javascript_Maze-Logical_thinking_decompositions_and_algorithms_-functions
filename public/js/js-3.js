@@ -1,4 +1,9 @@
 
-mazeWidth = 10
-height = 14
-createEmptyMaze(width, height)
+createEmptyMaze()
+
+// Here's our loop
+for ( counter = 0; counter < 10; counter = counter + 1) {
+  addWall()
+}
+
+addPlayer()

@@ -1,12 +1,11 @@
 
-// Variable arithmetic
+createEmptyMaze()
 
-createEmptyMaze(16, 8)
-numMonsters = 2
-numEnergies = numMonsters + 2
-numWalls = numEnergies + 3
-addRandomMonsters ( numMonsters )
-addRandomEnergies ( numEnergies )
-addRandomWalls ( numWalls )
+// Here's our loop
+for ( counter = 0; counter < 10; counter = counter + 1) {
+  addWall()
+  // Add energy using an if statement below
+  
+}
+
 addPlayer()
-addGoal()

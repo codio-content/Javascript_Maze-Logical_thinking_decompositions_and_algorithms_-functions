@@ -1,12 +1,13 @@
 
-// Variable arithmetic - subtraction
+createEmptyMaze()
 
-createEmptyMaze(16, 8)
-numMonsters = 6
-numEnergies = numMonsters - 2
-numWalls = numEnergies - 1
-addRandomMonsters ( numMonsters )
-addRandomEnergies ( numEnergies )
-addRandomWalls ( numWalls )
+for ( i=0; i<5; i=i+1) {
+  addWall() 
+}
+
+for ( ctr=0, msg=''; ctr<4; addMonster(), ctr=ctr+1) {
+  addEnergy()
+  showMessage('Counter : ' + ctr)
+}
+
 addPlayer()
-addGoal()
