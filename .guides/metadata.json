@@ -3,7 +3,12 @@
   {
    "id": "543e6585-1453-8998-b4e7-b1c9fcdbb24",
    "title": "Functions",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
    "layout": "3-cell-tree",
    "path": [],
    "type": "markdown",
@@ -11,11 +16,158 @@
   },
   {
    "id": "6d6e4cc0-989b-9b7-609e-ba90a474952b",
-   "title": "Section 2",
+   "title": "A simple function example",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/js-1.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-1",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-simple-function-example-6d6e.md"
+  },
+  {
+   "id": "68f55d88-7d50-d21b-cc13-1bf7c647a433",
+   "title": "Creating a function",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Section-2-6d6e.md"
+   "content-file": ".guides/content/Creating-a-function-68f5.md"
+  },
+  {
+   "id": "5969ce5-9ef-c9dc-e743-e8527edba404",
+   "title": "Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/ch-1.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/ch-1",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-5969.md"
+  },
+  {
+   "id": "ee4ac638-bd9e-e46c-e292-8593d57f9b51",
+   "title": "Function parameters",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/js-2.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Function-parameters-ee4a.md"
+  },
+  {
+   "id": "38d64b5-9369-e69-fac-c7dfe0218b2a",
+   "title": "Challenge parameter",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/ch-2.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/ch-2",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-parameter-38d6.md"
+  },
+  {
+   "id": "cf90929b-99b4-6bad-bc9f-a3f18b724416",
+   "title": "Function returns",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/js-3.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/js-3",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Function-returns-cf90.md"
+  },
+  {
+   "id": "5c897b14-740d-8d72-12e9-fd08eea361a6",
+   "title": "Challenge return",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/js/ch-3.js",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: https://{{domain9500}}/ch-3",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenge-return-5c89.md"
+  },
+  {
+   "id": "11ae49fb-70b7-8cfc-9b4a-1c9530bf33ef",
+   "title": "That's all folks",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-9-11ae.md"
   }
  ],
  "theme": "paper",

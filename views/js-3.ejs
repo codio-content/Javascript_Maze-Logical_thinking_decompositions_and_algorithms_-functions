@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>One</title>
+    
+    <% include include/game.ejs %>    
+ 
+    <script>      
+
+      function userScriptLoaded() { 
+        playerHitEnergy(function(object) {
+          hitEnergyEvent();
+          removeObject(object);
+        });     
+        playerHitMonster(hitMonsterEvent);
+        createRandomMaze(16,8)           
+      }   
+      
+        // Load the user script
+        loadUserScript('/js/js-3.js')
+    </script>
+    
+  </head>
+  <body>
+    <div id="game"></div>
+  </body>
+</html>
