@@ -17,7 +17,6 @@ function hitEnergyEvent() {
 function hitMonsterEvent() {
   energy -= 5
   calcScore(6)
-
 }
 
 function calcScore(factor) {
