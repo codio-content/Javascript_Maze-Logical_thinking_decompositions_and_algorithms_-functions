@@ -3,8 +3,8 @@ We want you to write a function that calculates the score.
 
 We have provided you with the following event handlers
 
-- `hitMonster()`
-- `hitEnergy()`
+- `hitMonsterEvent()`
+- `hitEnergyEvent()`
 
 You should 
 
@@ -50,6 +50,6 @@ If you have solved this challenge, you can see one of the really great things ab
 
 This is extremely important for these 2 reasons
 
-1. You only have to write code once rather than writing the same code in lots of places/
-2. It actually makes the code much neater and easer to read, so even if you only use it once, it makes the code much more readable.
+1. You only have to write code once rather than writing the same code in lots of places.
+2. It actually makes the code much neater and easier to read, so even if you only use it once, it makes the code much more readable.
 
