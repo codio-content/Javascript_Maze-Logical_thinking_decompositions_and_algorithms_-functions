@@ -5,6 +5,8 @@ $$
 score = \dfrac{energy \times 5}{steps}
 $$
 
+{Check it!!|custom}(ch-3)
+
 |||
 
 |||guidance

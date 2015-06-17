@@ -3,6 +3,8 @@ In this challenge, we've provided you with the `calcScore()` function. We want y
 
 Use a factor of 6 as the function argument.
 
+{Check it!!|custom}(ch-2)
+
 |||
 
 |||guidance

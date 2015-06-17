@@ -20,6 +20,8 @@ $$
 
 **Important:** do not call your function `score()` as this is used by the game as a variable to hold the score.
 
+{Check it!!|custom}(ch-1)
+
 |||
 
 |||guidance
