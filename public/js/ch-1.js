@@ -2,7 +2,7 @@
 function hitEnergyEvent() {
 
 }
-
+  
 function hitMonsterEvent() {
   
 }
