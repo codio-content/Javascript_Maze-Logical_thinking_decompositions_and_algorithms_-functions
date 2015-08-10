@@ -1,28 +1,5 @@
-|||challenge
-We want you to write a function that calculates the score.
 
-We have provided you with the following event handlers
-
-- `hitMonsterEvent()`
-- `hitEnergyEvent()`
-
-You should 
-
-- create a function that calculates the game score using this simple formula. 
-
-$$
-score = \dfrac{energy \times 5}{steps}
-$$
-
-- call this function from each of the event handlers
-- add 5 to the player energy if you collect energy
-- subtract 5 from the player energy if you touch a monster
-
-**Important:** do not call your function `score()` as this is used by the game as a variable to hold the score.
-
-{Check it!!|custom}(ch-1)
-
-|||
+{Check It!|assessment}(test-1728655712)
 
 |||guidance
 ## Solution

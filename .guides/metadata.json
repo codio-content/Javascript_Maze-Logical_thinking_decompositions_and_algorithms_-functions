@@ -12,7 +12,9 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Functions-543e.md"
+   "content-file": ".guides/content/Functions-543e.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "6d6e4cc0-989b-9b7-609e-ba90a474952b",
@@ -36,15 +38,20 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/A-simple-function-example-6d6e.md"
+   "content-file": ".guides/content/A-simple-function-example-6d6e.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "68f55d88-7d50-d21b-cc13-1bf7c647a433",
    "title": "Creating a function",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Creating-a-function-68f5.md"
+   "content-file": ".guides/content/Creating-a-function-68f5.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "5969ce5-9ef-c9dc-e743-e8527edba404",
@@ -68,7 +75,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-5969.md"
+   "content-file": ".guides/content/Challenge-5969.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "ee4ac638-bd9e-e46c-e292-8593d57f9b51",
@@ -87,7 +96,9 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Function-parameters-ee4a.md"
+   "content-file": ".guides/content/Function-parameters-ee4a.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "38d64b5-9369-e69-fac-c7dfe0218b2a",
@@ -111,7 +122,9 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-parameter-38d6.md"
+   "content-file": ".guides/content/Challenge-parameter-38d6.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "cf90929b-99b4-6bad-bc9f-a3f18b724416",
@@ -135,7 +148,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Function-returns-cf90.md"
+   "content-file": ".guides/content/Function-returns-cf90.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "5c897b14-740d-8d72-12e9-fd08eea361a6",
@@ -159,7 +174,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-return-5c89.md"
+   "content-file": ".guides/content/Challenge-return-5c89.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "11ae49fb-70b7-8cfc-9b4a-1c9530bf33ef",
@@ -167,7 +184,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/That-s-all-folks-11ae.md"
+   "content-file": ".guides/content/That-s-all-folks-11ae.md",
+   "chapter": false,
+   "reset": []
   }
  ],
  "theme": "paper",

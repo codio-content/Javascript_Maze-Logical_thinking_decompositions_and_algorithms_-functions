@@ -1,13 +1,5 @@
-|||challenge
-Create a function `calcScore()` that returns the score based on the usual formula of 
 
-$$
-score = \dfrac{energy \times 5}{steps}
-$$
-
-{Check it!!|custom}(ch-3)
-
-|||
+{Check It!|assessment}(test-2150872117)
 
 |||guidance
 ## Solution

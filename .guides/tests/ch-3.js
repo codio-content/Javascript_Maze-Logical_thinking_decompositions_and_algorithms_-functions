@@ -1,6 +1,9 @@
 
-$.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_=' + Date.now())
-.done(function (script, status) {
+var fs = require('fs');
+
+try {
+  var data = fs.readFileSync('/home/codio/workspace/public/js/ch-3.js', 'utf8');
+  eval(data);
   
   if(typeof hitEnergyEvent == 'function') {
     energy = 0;
@@ -9,43 +12,53 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
     hitEnergyEvent();
     
     if(energy != 5 || score != 25) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }
   }
-  else {
-    return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+  else {    
+    process.stdout.write('Not quite right, try again!');  
+    process.exit(1);
   }
-
+  
   if(typeof hitMonsterEvent == 'function') {
     energy = 6;
     score = 0;
-    steps = 1;
-    
+    steps = 1;    
     hitMonsterEvent();
+    
     if(energy != 1 || score != 5) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }
   }
   else {
-    return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+    process.stdout.write('Not quite right, try again!');  
+    process.exit(1);
   }
     
   if(typeof calcScore == 'function') {
     energy = 5;
     score = 0;
     steps = 1;
-    if(calcScore() != 25){
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+    var s = calcScore();
+        
+    if(s != 25){
+      process.stdout.write('Not quite right, try again!');  
+      process.exit(1);
     }
   }
   else {
-    return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
+    process.stdout.write('Not quite right, try again!');  
+    process.exit(1);
   }
-
-  return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');      
   
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, "Test not implemented yet. Coming soon.");})
-.fail(function (jqxhr, settings, exception) {
-  console.log(exception);
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, exception.message); 
-});
+  process.stdout.write('Well done!');  
+  process.exit(0);
+}
+catch(e) {
+  console.log(e); 
+}
+
+process.stdout.write('Not quite right, try again!');  
+process.exit(1);
