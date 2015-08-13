@@ -1,8 +1,9 @@
-
-function hitEnergyEvent() {
-
-}
   
 function hitMonsterEvent() {
   
 }
+
+function hitEnergyEvent() {
+
+}
+
