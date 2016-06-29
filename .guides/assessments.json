@@ -1,0 +1,50 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1728655712",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Creating a function",
+   "instructions": "We want you to write a function that calculates the score.\n\nWe have provided you with the following event handlers\n\n- `hitMonsterEvent()`\n- `hitEnergyEvent()`\n\nYou should \n\n- create a function that calculates the game score using this simple formula. \n\n$$\nscore = \\dfrac{energy \\times 5}{steps}\n$$\n\n- call this function from each of the event handlers\n- add 5 to the player energy if you collect energy\n- subtract 5 from the player energy if you touch a monster\n\n**Important:** do not call your function `score()` as this is used by the game as a variable to hold the score.",
+   "command": "node .guides/tests/ch-1.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2150872117",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Function returns",
+   "instructions": "Create a function `calcScore()` that returns the score based on the usual formula of \n\n$$\nscore = \\dfrac{energy \\times 5}{steps}\n$$",
+   "command": "node .guides/tests/ch-3.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2646396945",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Function paramaters",
+   "instructions": "In this challenge, we've provided you with the `calcScore()` function. We want you to complete the monster and energy event handlers so the scoring is correctly handled.\n\nUse a factor of 6 as the function argument.\n",
+   "command": "node .guides/tests/ch-2.js",
+   "points": 1
+  }
+ }
+]
