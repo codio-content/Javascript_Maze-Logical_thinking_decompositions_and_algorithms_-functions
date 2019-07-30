@@ -1,0 +1,67 @@
+{
+ "name": "Javascript_Maze-Logical_thinking_decompositions_and_algorithms_-functions",
+ "children": [
+  {
+   "title": "Functions",
+   "id": "543e6585-1453-8998-b4e7-b1c9fcdbb24",
+   "pageId": "543e6585-1453-8998-b4e7-b1c9fcdbb24",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "A simple function example",
+     "id": "6d6e4cc0-989b-9b7-609e-ba90a474952b",
+     "pageId": "6d6e4cc0-989b-9b7-609e-ba90a474952b",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Creating a function",
+   "id": "68f55d88-7d50-d21b-cc13-1bf7c647a433",
+   "pageId": "68f55d88-7d50-d21b-cc13-1bf7c647a433",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge",
+     "id": "5969ce5-9ef-c9dc-e743-e8527edba404",
+     "pageId": "5969ce5-9ef-c9dc-e743-e8527edba404",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Function parameters",
+   "id": "ee4ac638-bd9e-e46c-e292-8593d57f9b51",
+   "pageId": "ee4ac638-bd9e-e46c-e292-8593d57f9b51",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge parameter",
+     "id": "38d64b5-9369-e69-fac-c7dfe0218b2a",
+     "pageId": "38d64b5-9369-e69-fac-c7dfe0218b2a",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Function returns",
+   "id": "cf90929b-99b4-6bad-bc9f-a3f18b724416",
+   "pageId": "cf90929b-99b4-6bad-bc9f-a3f18b724416",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Challenge return",
+     "id": "5c897b14-740d-8d72-12e9-fd08eea361a6",
+     "pageId": "5c897b14-740d-8d72-12e9-fd08eea361a6",
+     "type": "page"
+    },
+    {
+     "title": "That's all folks",
+     "id": "11ae49fb-70b7-8cfc-9b4a-1c9530bf33ef",
+     "pageId": "11ae49fb-70b7-8cfc-9b4a-1c9530bf33ef",
+     "type": "page"
+    }
+   ]
+  }
+ ]
+}
